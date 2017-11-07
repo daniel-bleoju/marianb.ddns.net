@@ -9,9 +9,14 @@ if(isset($_POST['submit'])) {
 
 $number1=$_POST['number1'];
 $number2=$_POST['number2'];
-$sum=$number1+$number2;
 
-	echo "Totalul este: " . $sum;
+if($number1&&$number2){
+
+$sum=$number1+$number2;
+echo "Totalul este: " . $sum;
+} else {
+	echo "Nu ati introdus numerele";
+}
 }
 
 
