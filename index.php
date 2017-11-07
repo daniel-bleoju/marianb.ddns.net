@@ -1,17 +1,15 @@
 <?php 
 
-
-
 //phpinfo();
 echo "<h1> EVIL LAUGHTER!!! </h1>";
 echo "<br>";
 
-$number1 = $_POST['number1'];
-$number2 = $_POST['number2'];
 
-$sum = $number1 + $number2;
+if(isset($_POST['submit'])) {
 
-if (isset('submit')) {
+$number1=$_POST['number1'];
+$number2=$_POST['number2'];
+$sum=$number1+$number2;
 
 	echo "Totalul este: " . $sum;
 }
@@ -26,11 +24,11 @@ if (isset('submit')) {
 </head>
 <body>
       
-<form action ="index.php" method ="post">
+<form action="index.php" method="post">
     
-    <input type = "number" name = "number1" placeholder = "Enter Number1"><br>
-    <input type = "number" name = "number2" placeholder = "Enter Number2"> <br> 
-    <input type = "submit" name = "submit">
+    <input type="number" name="number1" placeholder="Enter Number1"><br>
+    <input type="number" name="number2" placeholder="Enter Number2"><br> 
+    <input type="submit" name="submit">
     
 </form>
               
