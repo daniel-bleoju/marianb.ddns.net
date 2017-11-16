@@ -1,0 +1,3 @@
+<testsuite name="My Application Tests">
+    <directory>./</directory>
+</testsuite>

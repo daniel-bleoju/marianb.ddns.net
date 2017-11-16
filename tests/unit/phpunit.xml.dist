@@ -1,0 +1,9 @@
+<phpunit colors="true" strict="true" bootstrap="../../vendor/autoload.php">
+<testsuites>
+    <testsuite name="My Test Suite">
+        <directory>/Users/daniel.bleoju/Documents/marianb.ddns.net/src/</directory>
+        <file>../EmailTest.php</file>
+        <exclude></exclude>
+    </testsuite>
+</testsuites>
+</phpunit>
