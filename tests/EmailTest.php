@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-
+use Marian\Email as Email;
 /**
  * @covers Email
  */
