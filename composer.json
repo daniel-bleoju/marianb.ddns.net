@@ -1,0 +1,20 @@
+{
+    "name": "email",
+    "type": "test-email",
+    "description": "phpunit test",
+    "require": {
+        "phpunit/phpunit": "6.4.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Marian":"src"
+        },
+        "classmap": [
+            "src/Email.php"
+        ]
+    },
+    "extra": {
+        "root": "./",
+        "magento-root-dir": "root"
+    }
+}
